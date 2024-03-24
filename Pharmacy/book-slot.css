@@ -1,0 +1,82 @@
+#block {
+	padding: 0 auto;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+form {
+	width: 100%;
+	max-width: 1000px;
+	height: 500px;
+	position: relative;
+	/* overflow-y: auto;
+	overflow-x: hidden; */
+	overflow: auto;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+img {
+	margin: 0;
+	max-width: 100%;
+	width: 50%;
+	height: 100%;
+	float: right;
+	position: sticky; /* stick the image */
+	top: 0;
+}
+
+#button {
+	/* position: absolute;
+	bottom: 0px;
+	left: 40%; */
+	margin-top: 50px;
+}
+
+#button input {
+	background-color: rgb(175, 102, 243);
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px 8px;
+	border: none;
+}
+
+/* input field design */
+form input {
+	width: 200px;
+	min-width: 100px;
+	border: none;
+	background-color: white;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+	height: 30px;
+	margin: 2%;
+}
+
+input,
+label,
+p,
+#district {
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#district {
+	height: 50px;
+	margin: 2%;
+}
+input:focus {
+	outline: none;
+	border-bottom: 2px solid steelblue;
+}
+input[name^="option"] {
+	width: 20px;
+	height: 20px;
+}
+
+form h2,
+form h4,
+form p {
+	margin: 20px;
+}

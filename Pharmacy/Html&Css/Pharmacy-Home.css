@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header,
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+header {
+	font-size: x-large;
+}
+
+footer {
+	font-size: 18px;
+	padding: 10px;
+}
+
+#navigate {
+	position: sticky;
+	z-index: 100;
+	top: 0;
+}
+
+.menu {
+	margin: 0;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.menu li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu li:hover {
+	background-color: rgb(0, 0, 0, 0.7);
+}
+
+.menu li:nth-child(2):hover .dropdown,
+.menu li:nth-child(3):hover .dropdown {
+	display: block;
+}
+
+.dropdown {
+	display: none;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 43px;
+	padding: 0;
+}
+
+.dropdown li {
+	display: block;
+}
+
+.dropdown li:hover {
+	background-color: gainsboro;
+}
+
+.dropdown li a {
+	color: steelblue;
+	font-size: 16px;
+}
+
+#img_section {
+	margin: 3px;
+	height: 450px;
+	min-height: 300px;
+	text-align: center;
+	background-color: rgb(163, 228, 228);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid steelblue;
+	animation-name: image-change;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes image-change {
+	0% {
+		background-image: url(../Images/Animation/ani1.jpg);
+	}
+
+	25% {
+		background-image: url(../Images/Animation/ani2.png);
+	}
+
+	50% {
+		background-image: url(../Images/Animation/ani3.jpg);
+	}
+
+	75% {
+		background-image: url(../Images/Animation/ani4.jpg);
+	}
+
+	100% {
+		background-image: url(../Images/Animation/ani5.jpg);
+	}
+}
+
+.product_section {
+	margin: 50px;
+}
+
+.product_group {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product {
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-weight: bold;
+	transition: transform 0.3s ease;
+	margin: 15px;
+}
+
+.product:hover {
+	transform: scale(1.05);
+}
+
+.mrp {
+	color: cadetblue;
+	font-weight: 400;
+}
+
+.product_img {
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+.product_img>img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.btn {
+	width: 100%;
+	padding: 5px;
+	color: rgb(241, 119, 32);
+	font-weight: bold;
+	border: 2px solid rgb(66, 170, 230);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn:active {
+	background-color: rgb(250, 234, 230);
+	border: 2px solid rgb(0, 255, 76);
+}

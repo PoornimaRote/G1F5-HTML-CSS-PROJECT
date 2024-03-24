@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#block {
+	padding: 0 auto;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+form {
+	width: 100%;
+	max-width: 1000px;
+	height: 500px;
+	position: relative;
+	overflow: auto;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+img {
+	margin: 0;
+	max-width: 100%;
+	width: 50%;
+	height: 100%;
+	float: right;
+	position: sticky;
+	/* stick the image */
+	top: 0;
+}
+
+.input-details {
+	width: 50%;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#button {
+	margin-top: 30px;
+}
+
+#button input {
+	background-color: rgb(175, 102, 243);
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px 8px;
+	border: none;
+}
+
+/* input field design */
+form input {
+	width: 200px;
+	border: none;
+	background-color: white;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+	height: 30px;
+	margin: 15px;
+}
+
+input,
+label,
+p,
+#district {
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#district {
+	height: 50px;
+	width: 200px;
+	margin: 15px;
+}
+
+input[name^="option"] {
+	width: 20px;
+	height: 20px;
+}
+
+input:focus {
+	outline: none;
+	border-bottom: 2px solid steelblue;
+}
+
+form h2,
+form h4,
+form p {
+	margin: 15px;
+}

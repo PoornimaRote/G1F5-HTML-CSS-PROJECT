@@ -55,6 +55,12 @@ form input {
 	margin: 2%;
 }
 
+.input-details {
+	width: 50%;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
 input,
 label,
 p,
@@ -65,7 +71,8 @@ p,
 
 #district {
 	height: 50px;
-	margin: 2%;
+	margin: 15px;
+	width: 200px;
 }
 
 input:focus {

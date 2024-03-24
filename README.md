@@ -15,9 +15,7 @@ This project aims to create a website for a pharmacy shop with an integrated sys
  
 1. Clone the repository.
 ```
-{
 git clone https://github.com/G1F5-HTML-CSS-PROJECT.git
-}
 ```
 ## Contributors 
  

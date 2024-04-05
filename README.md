@@ -1,4 +1,4 @@
-# G1F5-HTML-CSS-PROJECT
+# HTML-CSS-PHARMACY-PROJECT
 
 Problem Statement: 
 
